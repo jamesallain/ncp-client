@@ -1,0 +1,31 @@
+{
+  "name": "ncp",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null,
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "cors": "^2.8.3",
+    "expo": "17.0.0",
+    "lodash": "^4.17.4",
+    "native-base": "^2.1.4",
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.0",
+    "react-navigation": "1.0.0-beta.10",
+    "react-redux": "^5.0.5",
+    "react-relay": "dev",
+    "redux": "^3.6.0",
+    "thunk": "0.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-relay": "^1.0.1",
+    "babel-preset-react-native": "1.9.2",
+    "jest": "20.0.1",
+    "react-test-renderer": "16.0.0-alpha.6",
+    "relay-compiler": "dev"
+  },
+  "scripts": {
+    "relay": "relay-compiler --src ./src --schema ../fhir-postgresql/schema.graphql"
+  }
+}
